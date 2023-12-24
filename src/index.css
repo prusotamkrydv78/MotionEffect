@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+*{ 
+}
+::selection{
+  color: rgb(162, 255, 0);
+  color: rgb(223, 255, 174);
+}
+body::-webkit-scrollbar{
+  display: none;
+}
