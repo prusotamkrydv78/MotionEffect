@@ -38,6 +38,13 @@ const Card = ({ data, refernce }) => {
             <h3 className="text-sm font-samibold">{data.tag.tagTitle} </h3>
           </div>
         )}
+        {data.tag.isOpen && (
+          <div
+            className={`tag w-full bg-green-600 py-4 h-10 flex justify-center items-center`}
+          >
+            <h3 className="text-sm font-samibold">{data.tag.tagTitle} </h3>
+          </div>
+        )}
       </div>
     </motion.div>
   );
